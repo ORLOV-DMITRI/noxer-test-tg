@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <script>
+    const path = window.location.pathname.slice(1);
+    const segments = path.split('/').filter(Boolean);
+    if (segments.length > 0) {
+      window.location.replace('/' + segments[0] + '/#/' + segments.slice(1).join('/'));
+    } else {
+      window.location.replace('/webapp/demo/');
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
