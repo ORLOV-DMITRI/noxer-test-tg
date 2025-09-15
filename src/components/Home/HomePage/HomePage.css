@@ -1,0 +1,9 @@
+.home-page {
+    padding-top: 16px;
+}
+
+.error {
+    text-align: center;
+    padding: 20px;
+    color: var(--text-secondary);
+}

@@ -1,0 +1,20 @@
+:root {
+    --primary-bg: #f5f5f5;
+    --card-bg: #ffffff;
+    --text-primary: #292928;
+    --text-secondary: #666666;
+    --text-muted: #999999;
+    --accent-red: #ff3b30;
+    --accent-green: #34c759;
+    --accent-orange: #ff9500;
+    --accent-black: #1c1c1e;
+
+    --badge-hit: #ff9500;
+    --badge-sale: #ff3b30;
+    --badge-new: #34c759;
+    --badge-premium: #1c1c1e;
+
+
+
+    --header-height: 100px;
+}
